@@ -12,9 +12,9 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        .library(name: "UseCase", targets: ["UseCase"]),
+        .library(name: "ComposableUseCase", targets: ["ComposableUseCase"]),
     ],
     targets: [
-        .target(name: "UseCase"),
+        .target(name: "ComposableUseCase"),
     ]
 )

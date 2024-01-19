@@ -1,6 +1,6 @@
 import Combine
 
-public struct UseCase<Model, Parameters> {
+public struct ComposableUseCase<Model, Parameters> {
 
     public var execute: (Parameters) -> AnyPublisher<Model, Error>
 
